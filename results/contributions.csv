@@ -1,0 +1,26 @@
+stage,item,quantity,unit,status,dataset_id,kg_co2e
+material and included upstream,Stainless steel,0.19578947368421054,kg,sourced process + assumed missing providers,49f5324b-fc33-36e9-b5af-3c80d73492bd,1.7651389340410306
+component conversion,Stainless steel,0.093,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.03719999999627991
+material and included upstream,Brass,0.02131578947368421,kg,assumed material factor,,0.08526315789473685
+component conversion,Brass,0.010125,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.004049999999594991
+material and included upstream,Copper,0.015789473684210527,kg,assumed material factor,,0.06315789473684211
+component conversion,Copper,0.0075,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.002999999999699993
+material and included upstream,Polypropylene (PP),0.35025,kg,sourced process + assumed missing providers,89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870,1.5232453897807265
+material and included upstream,Polyvinyl chloride (PVC),0.045789473684210526,kg,sourced process + assumed missing providers,3dbccdda-2014-4239-ad1f-4e15c034942b,0.24352860705619483
+component conversion,Polyvinyl chloride (PVC),0.07786499999999999,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.03114599999688532
+material and included upstream,"Nylon, grade unspecified",0.052105263157894745,kg,assumed material factor,,0.3126315789473685
+component conversion,"Nylon, grade unspecified",0.088605,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.035441999996455725
+material and included upstream,Polyoxymethylene (POM),0.010263157894736842,kg,assumed material factor,,0.04105263157894737
+component conversion,Polyoxymethylene (POM),0.0174525,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.006980999999301883
+material and included upstream,Polycarbonate (PC),0.007105263157894737,kg,assumed material factor,,0.035526315789473684
+component conversion,Polycarbonate (PC),0.0120825,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.004832999999516689
+material and included upstream,Acrylonitrile-butadiene-styrene (ABS),0.031578947368421054,kg,sourced process + assumed missing providers,0e42a306-ee2d-362e-8bc3-580000096459,0.12574227551317446
+component conversion,Acrylonitrile-butadiene-styrene (ABS),0.0537,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.021479999997851953
+material and included upstream,Silicone,0.012631578947368423,kg,assumed material factor,,0.07578947368421053
+component conversion,Silicone,0.021480000000000003,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.008591999999140782
+material and included upstream,LDPE packaging foil,0.0066315789473684215,kg,sourced process + assumed missing providers,6a12cba1-889d-4515-90f8-89feb8d662f2,0.021070122633069174
+component conversion,LDPE packaging foil,0.00315,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.0012599999998739971
+material and included upstream,Cardboard packaging,0.13842105263157897,kg,sourced process + assumed missing providers,226ed3c2-e020-4c95-b1fc-4559fc2d18ac,0.47328932837398463
+component conversion,Cardboard packaging,0.03945,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.015779999998421966
+assembly,assembly electricity,0.2,kWh,assumed electricity quantity; sourced bridge + assumed grid factor,44a867b1-63dd-35bd-97bf-ce341f0ff616,0.07999999999199982
+supplier to assembly transport,500 km combination truck,0.4304,t*km,assumed distance; sourced truck process + assumed missing providers,34156f3c-28ef-33db-9ad0-6293a2aa0d52,0.07128604058989066

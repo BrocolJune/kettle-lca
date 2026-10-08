@@ -1,0 +1,106 @@
+{
+  "schema": "lca-classroom-run-v1",
+  "student_alias": "BrocolJune",
+  "run_label": "independent",
+  "run_date_utc": "2026-10-08T07:22:40.113772+00:00",
+  "codex_model_displayed": "GPT-6 based Codex; exact variant unknown",
+  "codex_settings_known": {
+    "python": "3.13.0",
+    "numpy": "2.1.3"
+  },
+  "declared_unit": "One manufactured and packaged BC1 1 L plastic electric kettle at the factory gate",
+  "included": [
+    "material supply",
+    "component manufacture",
+    "assembly",
+    "packaging"
+  ],
+  "excluded": [
+    "customer delivery",
+    "use",
+    "end of life"
+  ],
+  "manufacturing_geography": "unknown; US and North American background proxies",
+  "characterization_method": {
+    "name": "IPCC AR6 GWP100",
+    "version": "48d19af11965994378e9febe0cca2d5822a0776d",
+    "time_horizon_years": 100,
+    "source_url": "https://github.com/FLCAC-admin/LCIAformatter/blob/master/lciafmt/data/IPCC_GWP_values.csv"
+  },
+  "database_releases": [
+    {
+      "name": "USLCI",
+      "version": "1.2026-09.0",
+      "manifest": "data/manifest.json"
+    }
+  ],
+  "assumptions": {
+    "yield_and_losses": "5% loss except integrated PP molding",
+    "manufacturing_energy": "see data/model.json",
+    "allocation": "co-output burdens assigned to reference output in 15 processes",
+    "recycling": "no recycling credit",
+    "other": "see data/model.json and results/unresolved-providers.csv"
+  },
+  "mapping_table": "data/mapping/mapping-decisions.csv",
+  "prompts_record": "docs/decisions.md",
+  "reproduction_command": ".\\.venv\\Scripts\\python.exe -m src.lca; .\\.venv\\Scripts\\python.exe -m src.render_report",
+  "results": {
+    "status": "screening estimate with explicit provider and material assumptions",
+    "ghg_kg_co2e_per_packaged_kettle": 5.086485750594673,
+    "contributions": [
+      {
+        "stage": "assembly",
+        "kg_co2e": 0.07999999999199982
+      },
+      {
+        "stage": "component conversion",
+        "kg_co2e": 0.16976399998302322
+      },
+      {
+        "stage": "material and included upstream",
+        "kg_co2e": 4.7654357100297595
+      },
+      {
+        "stage": "supplier to assembly transport",
+        "kg_co2e": 0.07128604058989066
+      }
+    ],
+    "missing_inputs": [
+      "Brass",
+      "Copper",
+      "Nylon, grade unspecified",
+      "Polyoxymethylene (POM)",
+      "Polycarbonate (PC)",
+      "Silicone"
+    ],
+    "unresolved_providers": [
+      "641 exchanges; see results/unresolved-providers.csv"
+    ],
+    "uncharacterized_flows": [
+      "aggregated CFC/HCFC/HFC/PFC and other uncharacterized air flows; see results/run.json"
+    ]
+  },
+  "uncertainty": {
+    "performed": true,
+    "distributions": [
+      "independent triangular multipliers 0.5, 1, 1.5 on assumption classes"
+    ],
+    "correlations": "assumed independent; empirical correlations unknown",
+    "seed": 20261008,
+    "draws": 10000,
+    "p05_kg_co2e": 4.7201972765768145,
+    "p95_kg_co2e": 5.452218555705587
+  },
+  "checks": {
+    "units": "compatible links converted; 102 unit-mismatch links treated as unresolved",
+    "balances": "723.0 g kettle + 137.8 g packaging = 860.8 g",
+    "contribution_sum": 0.0,
+    "double_counting": "PP molding contains resin and is not separately charged; all other processing electricity is foreground only"
+  },
+  "revision": {
+    "prior_commit_sha": null,
+    "one_choice_changed": "not applicable",
+    "predicted_effect": "not applicable",
+    "observed_effect": "not applicable"
+  }
+}

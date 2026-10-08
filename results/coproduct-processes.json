@@ -1,0 +1,77 @@
+[
+  {
+    "process_id": "0aaf1e13-5d80-37f9-b7bb-81a6b8965c71",
+    "process": "Petroleum refining; at refinery",
+    "co_outputs": 8
+  },
+  {
+    "process_id": "1bf86847-c8d5-49d6-b223-ac39940a53f9",
+    "process": "Sodium bicarbonate; solvay process; at plant - PROXY",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "35bd31d8-b0b1-3da8-a553-df33ccd9e452",
+    "process": "Sawn lumber; hardwood; rough; kiln dried; at kiln; SE",
+    "co_outputs": 3
+  },
+  {
+    "process_id": "4a42fda8-640a-3152-9741-f64c558be34d",
+    "process": "Roundwood; hardwood; green; at logyard; SE",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "6baa9816-6151-3af1-b230-d28bebfb5227",
+    "process": "Roundwood; hardwood; green; at mill; SE",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "88aee762-4aa0-301f-b579-cca5d636aa0d",
+    "process": "Soybean oil; crude, degummed; at plant",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "8e3e47ea-ed49-329e-8931-29115917bc81",
+    "process": "Ethanol; denatured, corn dry mill",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "956b53b9-dd05-35ae-a072-69f1f6906290",
+    "process": "Soybean grains; at field",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "a3e150d0-770e-4e2a-9b19-f7daa8cda38b",
+    "process": "Chlorine; chlor-alkali electrolysis; at plant",
+    "co_outputs": 2
+  },
+  {
+    "process_id": "c245a252-0860-41d2-9789-802bab7984ab",
+    "process": "Containerboard; at mill",
+    "co_outputs": 2
+  },
+  {
+    "process_id": "cbf4023b-71f7-36b7-8c45-ea43bc2f108c",
+    "process": "Pulp; kraft market, bleached; at mill",
+    "co_outputs": 4
+  },
+  {
+    "process_id": "ce587724-1be4-3da0-b7a2-988592c28b9a",
+    "process": "Sawn lumber; hardwood; rough; green; at sawmill; SE",
+    "co_outputs": 5
+  },
+  {
+    "process_id": "d85c6177-4580-35f0-afd6-52125ababf10",
+    "process": "Heat; onsite boiler; hardwood mill",
+    "co_outputs": 1
+  },
+  {
+    "process_id": "d9cadd89-4203-375a-903a-63197cd29c6a",
+    "process": "Ethanol; denatured; forest residues, thermochem",
+    "co_outputs": 2
+  },
+  {
+    "process_id": "f9cf891e-fd8c-304c-9707-4a7e390b9e75",
+    "process": "Paper bag and sack; unbleached kraft; at mill",
+    "co_outputs": 3
+  }
+]

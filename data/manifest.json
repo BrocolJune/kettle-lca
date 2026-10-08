@@ -1,0 +1,62 @@
+{
+  "run_id": "bc1-uslci-independent-2026-10-08",
+  "run_date_utc": "2026-10-08T07:22:40.113772+00:00",
+  "data": [
+    {
+      "file": "data/raw/uslci_commons_export.zip",
+      "sha256": "d1b354d11b757efecd8f456077744e83b9c74b4df0d99e18256bdd0335ac5009",
+      "release": "1.2026-09.0",
+      "url": "https://www.lcacommons.gov/lca-collaboration/National_Renewable_Energy_Laboratory/USLCI_Database_Public/datasets",
+      "redistributed": false
+    },
+    {
+      "file": "data/raw/uslci_v1.2026-09.0_olca2_7_1.zolca",
+      "sha256": "0ea3d4eddda21d82759d2e43939ea2414e80be07e8b7b45fa888ad73db82f0bb",
+      "release": "1.2026-09.0",
+      "url": "https://github.com/FLCAC-admin/uslci-content/blob/dev/downloads/uslci_v1.2026-09.0_olca2_7_1.zolca",
+      "redistributed": false
+    },
+    {
+      "file": "data/raw/IPCC_GWP_values.csv",
+      "sha256": "269b20caa4f1f9692628e70607bca2e43027a51ed0df9b5c5fd775b2f05e17c7",
+      "release": "48d19af11965994378e9febe0cca2d5822a0776d",
+      "url": "https://github.com/FLCAC-admin/LCIAformatter/blob/master/lciafmt/data/IPCC_GWP_values.csv",
+      "redistributed": false
+    },
+    {
+      "file": "data/source/readme-requirements.md",
+      "sha256": "33a498f22a167dd65004f8b86f7e643030d2835d374244495a61600c5e108c2c",
+      "url": "https://tiangong-lca-decision-lab.ecodino73.chatgpt.site/classroom/readme-requirements.md",
+      "retrieved_at_utc": "2026-10-08",
+      "redistributed": true
+    },
+    {
+      "file": "data/source/repository-checklist.md",
+      "sha256": "f343d97c72f2c5999005c9b69c7cc0808f4c8f8b744e534c8a291e72fe2e51dd",
+      "url": "https://tiangong-lca-decision-lab.ecodino73.chatgpt.site/classroom/repository-checklist.md",
+      "retrieved_at_utc": "2026-10-08",
+      "redistributed": true
+    },
+    {
+      "file": "data/source/kettle-bom.csv",
+      "sha256": "89b76fbf59a6ab1f3c5825cc6052556b15e1d3e8ea7739121ccb656d00b68f13",
+      "url": "https://tiangong-lca-decision-lab.ecodino73.chatgpt.site/classroom/kettle-bom.csv",
+      "retrieved_at_utc": "2026-10-08",
+      "redistributed": true
+    },
+    {
+      "file": "data/source/mapping-decisions.csv",
+      "sha256": "e2265caf4ded7759170ce2c362769e9a51341d1c763568a3988a7d1eeaefe1aa",
+      "url": "https://tiangong-lca-decision-lab.ecodino73.chatgpt.site/classroom/mapping-decisions.csv",
+      "retrieved_at_utc": "2026-10-08",
+      "redistributed": true
+    },
+    {
+      "file": "data/source/run-manifest.json",
+      "sha256": "04023cbd9ece6488d919e84003bb9ac100c467421dd47c6ddbde216d00c1c378",
+      "url": "https://tiangong-lca-decision-lab.ecodino73.chatgpt.site/classroom/run-manifest.json",
+      "retrieved_at_utc": "2026-10-08",
+      "redistributed": true
+    }
+  ]
+}

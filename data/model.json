@@ -1,0 +1,53 @@
+{
+  "run_id": "bc1-uslci-independent-2026-10-08",
+  "uslci_release": "1.2026-09.0",
+  "method": "IPCC AR6 GWP100 (FLCAC LCIAformatter source table)",
+  "method_source_commit": "48d19af11965994378e9febe0cca2d5822a0776d",
+  "material_loss_fraction": 0.05,
+  "assembly_electricity_kwh": 0.2,
+  "supplier_to_assembly_transport_km": 500,
+  "processing_electricity_kwh_per_kg": {
+    "thermoplastic": 1.79,
+    "silicone": 1.79,
+    "metal": 0.5,
+    "cardboard": 0.3,
+    "foil": 0.5
+  },
+  "foreground_dataset_mapping": {
+    "Stainless steel": {"id": "49f5324b-fc33-36e9-b5af-3c80d73492bd", "reason": "stainless 304 flat rolled coil proxy; forming electricity added"},
+    "Polypropylene (PP)": {"id": "89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870", "reason": "injection molded PP part; resin and 3.4% process loss already included", "integrated_processing": true},
+    "Polyvinyl chloride (PVC)": {"id": "3dbccdda-2014-4239-ad1f-4e15c034942b", "reason": "PVC suspension resin; conversion separately assumed"},
+    "Acrylonitrile-butadiene-styrene (ABS)": {"id": "0e42a306-ee2d-362e-8bc3-580000096459", "reason": "ABS copolymer resin; conversion separately assumed"},
+    "LDPE packaging foil": {"id": "6a12cba1-889d-4515-90f8-89feb8d662f2", "reason": "LDPE virgin resin; film extrusion electricity separately assumed"},
+    "Cardboard packaging": {"id": "226ed3c2-e020-4c95-b1fc-4559fc2d18ac", "reason": "corrugated product average at mill; box conversion separately assumed"}
+  },
+  "assumed_material_kgco2e_per_kg": {
+    "Brass": 4.0,
+    "Copper": 4.0,
+    "Nylon, grade unspecified": 6.0,
+    "Polyoxymethylene (POM)": 4.0,
+    "Polycarbonate (PC)": 5.0,
+    "Silicone": 6.0
+  },
+  "foreground_electricity_provider_id": "44a867b1-63dd-35bd-97bf-ce341f0ff616",
+  "foreground_truck_provider_id": "34156f3c-28ef-33db-9ad0-6293a2aa0d52",
+  "unresolved_provider_assumptions": {
+    "electricity_mj": 0.1111111111,
+    "fuel_mj": 0.1,
+    "fuel_l": 2.7,
+    "fuel_m3": 2.0,
+    "material_kg": 2.0,
+    "water_kg": 0.0003,
+    "waste_kg": 0.3,
+    "inert_mining_waste_kg": 0.005,
+    "recycled_feedstock_kg": 0.3,
+    "waste_mj": 0.1,
+    "waste_m3": 300.0,
+    "transport_tkm": 0.1,
+    "monetary_usd": 0.5,
+    "infrastructure_item": 1000.0,
+    "land_m2": 0.1,
+    "infrastructure_m": 10.0
+  },
+  "uncertainty": {"draws": 10000, "seed": 20261008, "assumption_multiplier_low": 0.5, "assumption_multiplier_high": 1.5}
+}

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+data/raw/
+data/private/
+results/private/
+*.zolca
+*.zip
+*.sqlite
+*.db
